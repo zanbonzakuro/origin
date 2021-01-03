@@ -15,6 +15,25 @@
 
 //document.write(answers);
 
-const category = 'toys';
+//const category = 'toys';
 
-console.log('https://someurl.com/' + category +'/'+'4');
+//console.log(`https://someurl.com/${category}/5`);
+
+const numberOfFilms = +prompt ('How many films did you watch?', "");
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors:{},
+    genres:[],
+    private: false
+};
+
+    const a = prompt('One of your last seen movie?', ""),
+          b = +prompt('What is your score for this movie?', ""),
+          c = prompt('One of your last seen movie?', ""),
+          d = +prompt('What is your score for this movie?', "");
+          personalMovieDB.movies[a]= b;
+          personalMovieDB.movies[c]= d;
+
+          console.log(personalMovieDB);
