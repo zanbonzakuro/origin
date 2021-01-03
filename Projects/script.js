@@ -19,21 +19,43 @@
 
 //console.log(`https://someurl.com/${category}/5`);
 
-const numberOfFilms = +prompt ('How many films did you watch?', "");
+//const numberOfFilms = +prompt ('How many films did you watch?', "");
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors:{},
-    genres:[],
-    private: false
-};
+//const personalMovieDB = {
+   // count: numberOfFilms,
+//     movies: {},
+//     actors:{},
+//     genres:[],
+//     private: false
+// };
 
-    const a = prompt('One of your last seen movie?', ""),
-          b = +prompt('What is your score for this movie?', ""),
-          c = prompt('One of your last seen movie?', ""),
-          d = +prompt('What is your score for this movie?', "");
-          personalMovieDB.movies[a]= b;
-          personalMovieDB.movies[c]= d;
+//     const a = prompt('One of your last seen movie?', ""),
+//           b = +prompt('What is your score for this movie?', ""),
+//           c = prompt('One of your last seen movie?', ""),
+//           d = +prompt('What is your score for this movie?', "");
+//           personalMovieDB.movies[a]= b;
+//           personalMovieDB.movies[c]= d;
 
-          console.log(personalMovieDB);
+//           console.log(personalMovieDB);
+// const num=50;
+// switch (num) {
+//     case 49:
+//         console.log('Wrong!');
+//         break;
+//     case 100:
+//         console.log("Wrong!");
+//         break;
+//     case 50:
+//         console.log("Bulls eye!");
+//         break;
+//     default:
+//         console.log("Not this time!");
+//         break;
+// }
+
+
+let num = 0;
+while (num<20){
+    console.log(num);
+    num++;
+}
